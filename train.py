@@ -7,7 +7,7 @@ from tensorflow.keras.optimizers import Adam
 import os
 
 # Disable GPU for now since you're having issues with it
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # Load the preprocessed data
 print("Loading preprocessed data...")
